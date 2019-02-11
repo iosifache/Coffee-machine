@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="coffee_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="coffee_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="360500000000001fs"></ZoomEndTime>
+      <Cursor1Time time="135500000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="144"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="45" />
+   <wvobject fp_name="/coffee_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/banknote" type="logic">
+      <obj_property name="ElementShortName">banknote</obj_property>
+      <obj_property name="ObjectShortName">banknote</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/coin" type="logic">
+      <obj_property name="ElementShortName">coin</obj_property>
+      <obj_property name="ObjectShortName">coin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/irish" type="logic">
+      <obj_property name="ElementShortName">irish</obj_property>
+      <obj_property name="ObjectShortName">irish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/latte" type="logic">
+      <obj_property name="ElementShortName">latte</obj_property>
+      <obj_property name="ObjectShortName">latte</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/black" type="logic">
+      <obj_property name="ElementShortName">black</obj_property>
+      <obj_property name="ObjectShortName">black</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/segments_from_bcd" type="array">
+      <obj_property name="ElementShortName">segments_from_bcd[6:0]</obj_property>
+      <obj_property name="ObjectShortName">segments_from_bcd[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/anode_from_bcd" type="array">
+      <obj_property name="ElementShortName">anode_from_bcd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">anode_from_bcd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/clock_divider/slower_clk" type="logic">
+      <obj_property name="ElementShortName">slower_clk</obj_property>
+      <obj_property name="ObjectShortName">slower_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/reset_edge_detector/output" type="logic">
+      <obj_property name="ElementShortName">output</obj_property>
+      <obj_property name="ObjectShortName">output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/reset_edge" type="logic">
+      <obj_property name="ElementShortName">reset_edge</obj_property>
+      <obj_property name="ObjectShortName">reset_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/banknote_edge" type="logic">
+      <obj_property name="ElementShortName">banknote_edge</obj_property>
+      <obj_property name="ObjectShortName">banknote_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/coin_edge" type="logic">
+      <obj_property name="ElementShortName">coin_edge</obj_property>
+      <obj_property name="ObjectShortName">coin_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/irish_edge" type="logic">
+      <obj_property name="ElementShortName">irish_edge</obj_property>
+      <obj_property name="ObjectShortName">irish_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/latte_edge" type="logic">
+      <obj_property name="ElementShortName">latte_edge</obj_property>
+      <obj_property name="ObjectShortName">latte_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/black_edge" type="logic">
+      <obj_property name="ElementShortName">black_edge</obj_property>
+      <obj_property name="ObjectShortName">black_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/A_alu" type="array">
+      <obj_property name="ElementShortName">A_alu[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A_alu[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/B_alu" type="array">
+      <obj_property name="ElementShortName">B_alu[4:0]</obj_property>
+      <obj_property name="ObjectShortName">B_alu[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/S_alu" type="array">
+      <obj_property name="ElementShortName">S_alu[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S_alu[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/ALTB_alu" type="logic">
+      <obj_property name="ElementShortName">ALTB_alu</obj_property>
+      <obj_property name="ObjectShortName">ALTB_alu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/AEQB_alu" type="logic">
+      <obj_property name="ElementShortName">AEQB_alu</obj_property>
+      <obj_property name="ObjectShortName">AEQB_alu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/AGTB_alu" type="logic">
+      <obj_property name="ElementShortName">AGTB_alu</obj_property>
+      <obj_property name="ObjectShortName">AGTB_alu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/enable_wait_counter_10" type="logic">
+      <obj_property name="ElementShortName">enable_wait_counter_10</obj_property>
+      <obj_property name="ObjectShortName">enable_wait_counter_10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/reset_wait_counter_10" type="logic">
+      <obj_property name="ElementShortName">reset_wait_counter_10</obj_property>
+      <obj_property name="ObjectShortName">reset_wait_counter_10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/tc_wait_counter_10" type="logic">
+      <obj_property name="ElementShortName">tc_wait_counter_10</obj_property>
+      <obj_property name="ObjectShortName">tc_wait_counter_10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/enable_wait_counter_15" type="logic">
+      <obj_property name="ElementShortName">enable_wait_counter_15</obj_property>
+      <obj_property name="ObjectShortName">enable_wait_counter_15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/reset_wait_counter_15" type="logic">
+      <obj_property name="ElementShortName">reset_wait_counter_15</obj_property>
+      <obj_property name="ObjectShortName">reset_wait_counter_15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/tc_wait_counter_15" type="logic">
+      <obj_property name="ElementShortName">tc_wait_counter_15</obj_property>
+      <obj_property name="ObjectShortName">tc_wait_counter_15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/actual_money" type="array">
+      <obj_property name="ElementShortName">actual_money[3:0]</obj_property>
+      <obj_property name="ObjectShortName">actual_money[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/increment_money" type="logic">
+      <obj_property name="ElementShortName">increment_money</obj_property>
+      <obj_property name="ObjectShortName">increment_money</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/load_money" type="logic">
+      <obj_property name="ElementShortName">load_money</obj_property>
+      <obj_property name="ObjectShortName">load_money</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/money_to_load" type="array">
+      <obj_property name="ElementShortName">money_to_load[3:0]</obj_property>
+      <obj_property name="ObjectShortName">money_to_load[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/waiting" type="logic">
+      <obj_property name="ElementShortName">waiting</obj_property>
+      <obj_property name="ObjectShortName">waiting</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/insufficient_money" type="logic">
+      <obj_property name="ElementShortName">insufficient_money</obj_property>
+      <obj_property name="ObjectShortName">insufficient_money</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/processing_coffee" type="logic">
+      <obj_property name="ElementShortName">processing_coffee</obj_property>
+      <obj_property name="ObjectShortName">processing_coffee</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/done_coffee" type="logic">
+      <obj_property name="ElementShortName">done_coffee</obj_property>
+      <obj_property name="ObjectShortName">done_coffee</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/digit_1" type="array">
+      <obj_property name="ElementShortName">digit_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/digit_2" type="array">
+      <obj_property name="ElementShortName">digit_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/digit_3" type="array">
+      <obj_property name="ElementShortName">digit_3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/digit_4" type="array">
+      <obj_property name="ElementShortName">digit_4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/LED_R" type="logic">
+      <obj_property name="ElementShortName">LED_R</obj_property>
+      <obj_property name="ObjectShortName">LED_R</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/LED_G" type="logic">
+      <obj_property name="ElementShortName">LED_G</obj_property>
+      <obj_property name="ObjectShortName">LED_G</obj_property>
+   </wvobject>
+   <wvobject fp_name="/coffee_tb/uut/LED_B" type="logic">
+      <obj_property name="ElementShortName">LED_B</obj_property>
+      <obj_property name="ObjectShortName">LED_B</obj_property>
+   </wvobject>
+</wave_config>
